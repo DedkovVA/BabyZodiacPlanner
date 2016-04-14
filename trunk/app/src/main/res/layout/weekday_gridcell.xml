@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/beige"
+    android:orientation="vertical" >
+
+<Button
+    android:id="@+id/week_day_gridcell"
+    android:layout_width="fill_parent"
+    android:layout_height="30sp"
+    android:height="30sp"
+    android:layout_gravity="center"
+    android:background="@color/lilac"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/dark"
+    android:textSize="20sp"/>
+
+</LinearLayout>

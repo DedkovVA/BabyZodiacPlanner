@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="dark">#000015</color>
+
+    <color name="beige">#eafce3</color>
+
+    <color name="mint">#8087e8db</color>
+    <color name="deep_mint">#80336666</color>
+
+    <color name="lilac">#80cbc3e6</color>
+    <color name="nymph">#80FFCCCC</color>
+    <color name="gray">#585858</color>
+
+</resources>

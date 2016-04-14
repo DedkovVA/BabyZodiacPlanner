@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mother_baby"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight,ContentDescription" >
+
+<LinearLayout
+android:id="@+id/buttonlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="50sp"
+    android:height="50sp"
+    android:gravity="start|top"
+    android:orientation="horizontal"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:paddingLeft="1dp"
+    android:paddingRight="3dp"
+    >
+
+<ImageView
+android:id="@+id/prevMonth"
+    android:layout_width="50sp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:src="@drawable/calendar_left_arrow_selector"
+    android:background="@color/nymph"/>
+
+<TextView
+android:id="@+id/currentMonth"
+    android:textSize="20sp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.6"
+    android:gravity="center"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:textColor="@color/dark"
+    android:background="@color/nymph"/>
+
+<ImageView
+android:id="@+id/nextMonth"
+    android:layout_width="50sp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:src="@drawable/calendar_right_arrow_selector"
+    android:background="@color/nymph"/>
+
+</LinearLayout>
+
+<GridView
+    android:id="@+id/weekDays"
+    android:layout_width="fill_parent"
+    android:numColumns="7"
+    android:layout_height="wrap_content"
+    android:horizontalSpacing="2dp"
+    android:verticalSpacing="2dp"
+    android:padding="1dp"/>
+
+<GridView
+android:id="@+id/calendar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:numColumns="7"
+    android:horizontalSpacing="2dp"
+    android:verticalSpacing="2dp"
+    android:padding="1dp"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include  layout="@layout/advertising" android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
+</LinearLayout>

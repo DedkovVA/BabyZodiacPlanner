@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">b-Zodiac</string>
+    <string name="help_for_zodiac_chooser">Выберите знаки зодиака, с которыми Вы хотите проверить совместимость Вашего будущего ребенка</string>
+    <string name="action_calendar">Календарь</string>
+    <string name="action_choose_zodiacs">Выбрать Зодиаки</string>
+</resources>

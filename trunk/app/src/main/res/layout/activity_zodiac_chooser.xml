@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/embittered_baby"
+    android:orientation="vertical"
+    tools:ignore="InefficientWeight,ContentDescription"
+    tools:context=".ZodiacChooser" >
+
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_for_zodiac_chooser"
+        android:paddingLeft="40sp"
+        android:paddingRight="40sp"
+        android:paddingTop="10sp"
+        android:paddingBottom="20sp"
+        android:textColor="@color/black"
+        />
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zodiacChooserViewId"
+        android:numColumns="3"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="2dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include  layout="@layout/advertising" android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
